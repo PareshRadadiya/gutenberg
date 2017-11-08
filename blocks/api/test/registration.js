@@ -160,7 +160,6 @@ describe( 'blocks', () => {
 				title: 'block title',
 				icon: 'block-default',
 				attributes: { ok: {
-					source: 'comment',
 					type: 'boolean',
 				} },
 			} );
