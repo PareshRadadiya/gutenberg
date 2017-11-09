@@ -13,19 +13,16 @@
 
 .components-autocomplete__result {
 	margin-bottom: 0;
-	border: 1px solid transparent;
 	font-family: $default-font;
 	font-size: $default-font-size;
 
 	&.is-selected {
-		box-shadow: none;
-		color: $dark-gray-500;
-		border-color: $dark-gray-500;
+		@include button-style__focus-active;
 	}
 
 	&:hover {
 		.components-button {
-			color: $blue-medium-500;
+			@include button-style__hover;
 		}
 	}
 
